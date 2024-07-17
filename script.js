@@ -58,6 +58,11 @@ function reiniciar(){
     empate=0
     jugador1=0
     jugador2=0
+
+    document.querySelector("#ptsJugador2").textContent= jugador2;
+    document.querySelector("#ptsJugador1").textContent= jugador1;
+    document.querySelector("#ptsEmpates").textContent= empate;
+
 }
 
 
